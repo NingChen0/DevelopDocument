@@ -14,11 +14,11 @@ read name
 echo "你好，$name"
 echo
 echo -n "你在哪里工作？"
-read
+read REPLY
 echo "在 $REPLY 一定使你忙碌吧;"
 echo
 echo -p "输入你的职业"
-read
+read REPLY
 echo "你是一个$REPLY"
 echo
 ```
